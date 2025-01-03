@@ -1,0 +1,49 @@
+create or replace function calc_order_increase(order_y1 INTEGER, order_y2 INTEGER)
+returns DOUBLE
+language java
+handler='CalcUtil.main'
+target_path='@~/CalcUtil.jar'
+as
+$$
+class CalcUtil {
+    public static double main(int order_y1, int order_y2) {
+        return (double)(order_y2-order_y1)*100/order_y1;
+    }
+}
+$$;
+
+
+create or replace procedure get_order_increase(chosen_year NUMBER)
+returns DOUBLE
+language java
+runtime_version = 11
+handler = 'OrderVolumeCheck.main'
+packages=('com.snowflake:snowpark:latest')
+as 
+$$
+import com.snowflake.snowpark_java.*;
+import java.text.MessageFormat;
+class OrderVolumeCheck {
+    
+    static int DEFAULT_YEAR=1995;
+    
+    public double main(Session session, int chosen_year) {    
+    
+        DataFrame df_order_vol_chosen_year = session.sql(String.format("select count(*) as count from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ORDERS where year(o_orderdate) = %d",chosen_year)); 
+        Row[] result_1 = df_order_vol_chosen_year.collect();
+        int order_vol_chosen_year =  result_1[0].getInt(0);
+
+        DataFrame df_order_vol_base_year = session.sql(String.format("select count(*) as count from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ORDERS where year(o_orderdate) = %d",DEFAULT_YEAR)); 
+        Row[] result_2 = df_order_vol_base_year.collect();
+        int order_vol_base_year =  result_2[0].getInt(0);
+        
+        DataFrame df = session.sql(String.format("select calc_order_increase(%d,%d) as result",order_vol_base_year, order_vol_chosen_year));
+
+        return (df.collect())[0].getDouble(0);
+    }
+}
+$$
+;
+
+--Test the procedure by running
+call get_order_increase(1997);

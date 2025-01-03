@@ -1,0 +1,9 @@
+spec:
+  containers:
+    - name: person-mockapp
+      image: bwbyxua-wn19806.registry.snowflakecomputing.com/commons/utils/image_repo/person-gen-api:dev
+  endpoints:
+    - name: person-gen-api
+      port: 8090
+      protocol: HTTP
+      public: true

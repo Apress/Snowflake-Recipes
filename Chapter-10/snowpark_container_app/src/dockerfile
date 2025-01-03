@@ -1,0 +1,15 @@
+FROM python:3.11
+
+# Copy the packages file into the build
+WORKDIR /app
+COPY ./ /app/
+
+# run the install using the packages manifest file
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Open port 8090
+EXPOSE 8090
+
+# When the container launches run the flask app
+ENV FLASK_APP="person_gen_app"
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8090"]

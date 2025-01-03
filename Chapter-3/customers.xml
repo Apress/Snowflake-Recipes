@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CUSTOMERS>
+  <CUSTOMER>
+    <C_CUSTKEY>101</C_CUSTKEY>
+    <C_NAME>Customer#000000101</C_NAME>
+    <C_ADDRESS>sMmL2rNeHDltovSm Y</C_ADDRESS>
+    <C_NATIONKEY>2</C_NATIONKEY>
+    <C_PHONE>12-514-298-3699</C_PHONE>
+    <C_ACCTBAL>7470.96</C_ACCTBAL>
+    <C_MKTSEGMENT>MACHINERY</C_MKTSEGMENT>
+    <C_COMMENT> sleep. pending packages detect slyly ironic pack</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>102</C_CUSTKEY>
+    <C_NAME>Customer#000000102</C_NAME>
+    <C_ADDRESS>UAtflJ06 fn9zBfKjInkQZlWtqaA</C_ADDRESS>
+    <C_NATIONKEY>19</C_NATIONKEY>
+    <C_PHONE>29-324-978-8538</C_PHONE>
+    <C_ACCTBAL>8462.17</C_ACCTBAL>
+    <C_MKTSEGMENT>BUILDING</C_MKTSEGMENT>
+    <C_COMMENT>ously regular dependencies nag among the furiously express dinos. blithely final</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>103</C_CUSTKEY>
+    <C_NAME>Customer#000000103</C_NAME>
+    <C_ADDRESS>8KIsQX4LJ7QMsj6DrtFtXu0nUEdV,8a</C_ADDRESS>
+    <C_NATIONKEY>9</C_NATIONKEY>
+    <C_PHONE>19-216-107-2107</C_PHONE>
+    <C_ACCTBAL>2757.45</C_ACCTBAL>
+    <C_MKTSEGMENT>BUILDING</C_MKTSEGMENT>
+    <C_COMMENT>furiously pending notornis boost slyly around the blithely ironic ideas? final, even instructions cajole fl</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>104</C_CUSTKEY>
+    <C_NAME>Customer#000000104</C_NAME>
+    <C_ADDRESS>9mcCK L7rt0SwiYtrbO88DiZS7U d7M</C_ADDRESS>
+    <C_NATIONKEY>10</C_NATIONKEY>
+    <C_PHONE>20-966-284-8065</C_PHONE>
+    <C_ACCTBAL>-588.38</C_ACCTBAL>
+    <C_MKTSEGMENT>FURNITURE</C_MKTSEGMENT>
+    <C_COMMENT>rate carefully slyly special pla</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>105</C_CUSTKEY>
+    <C_NAME>Customer#000000105</C_NAME>
+    <C_ADDRESS>4iSJe4L SPjg7kJj98Yz3z0B</C_ADDRESS>
+    <C_NATIONKEY>10</C_NATIONKEY>
+    <C_PHONE>20-793-553-6417</C_PHONE>
+    <C_ACCTBAL>9091.82</C_ACCTBAL>
+    <C_MKTSEGMENT>MACHINERY</C_MKTSEGMENT>
+    <C_COMMENT>l pains cajole even accounts. quietly final instructi</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>106</C_CUSTKEY>
+    <C_NAME>Customer#000000106</C_NAME>
+    <C_ADDRESS>xGCOEAUjUNG</C_ADDRESS>
+    <C_NATIONKEY>1</C_NATIONKEY>
+    <C_PHONE>11-751-989-4627</C_PHONE>
+    <C_ACCTBAL>3288.42</C_ACCTBAL>
+    <C_MKTSEGMENT>MACHINERY</C_MKTSEGMENT>
+    <C_COMMENT>lose slyly. ironic accounts along the evenly regular theodolites wake about the special, final gifts. </C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>107</C_CUSTKEY>
+    <C_NAME>Customer#000000107</C_NAME>
+    <C_ADDRESS>Zwg64UZ,q7GRqo3zm7P1tZIRshBDz</C_ADDRESS>
+    <C_NATIONKEY>15</C_NATIONKEY>
+    <C_PHONE>25-336-529-9919</C_PHONE>
+    <C_ACCTBAL>2514.15</C_ACCTBAL>
+    <C_MKTSEGMENT>AUTOMOBILE</C_MKTSEGMENT>
+    <C_COMMENT>counts cajole slyly. regular requests wake. furiously regular deposits about the blithely final fo</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>108</C_CUSTKEY>
+    <C_NAME>Customer#000000108</C_NAME>
+    <C_ADDRESS>GPoeEvpKo1</C_ADDRESS>
+    <C_NATIONKEY>5</C_NATIONKEY>
+    <C_PHONE>15-908-619-7526</C_PHONE>
+    <C_ACCTBAL>2259.38</C_ACCTBAL>
+    <C_MKTSEGMENT>BUILDING</C_MKTSEGMENT>
+    <C_COMMENT>refully ironic deposits sleep. regular, unusual requests wake slyly</C_COMMENT>
+  </CUSTOMER>
+  <CUSTOMER>
+    <C_CUSTKEY>109</C_CUSTKEY>
+    <C_NAME>Customer#000000109</C_NAME>
+    <C_ADDRESS>OOOkYBgCMzgMQXUmkocoLb56rfrdWp2NE2c</C_ADDRESS>
+    <C_NATIONKEY>16</C_NATIONKEY>
+    <C_PHONE>26-992-422-8153</C_PHONE>
+    <C_ACCTBAL>-716.1</C_ACCTBAL>
+    <C_MKTSEGMENT>BUILDING</C_MKTSEGMENT>
+    <C_COMMENT>es. fluffily final dependencies sleep along the blithely even pinto beans. final deposits haggle furiously furiou</C_COMMENT>
+  </CUSTOMER>
+</CUSTOMERS>
